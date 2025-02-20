@@ -10,6 +10,14 @@ module.exports = (sequelize, dataType) => {
       type: dataType.STRING,
       allowNull: false,
     },
+    lastname: {
+        type: dataType.STRING,
+        allowNull: false,
+    },
+    salary: {
+        type: dataType.INTEGER,
+        allowNull: false,
+    }
   });
 
   return User;
